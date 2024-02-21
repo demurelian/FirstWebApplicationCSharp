@@ -1,7 +1,12 @@
-This project is the realization of a test project to Mindbox. Needed to accomplish:
+Данный проект - реализация тестового задания в компанию Mindbox.
 
-Write a library for delivery to external customers that knows how to calculate the area of a circle by radius and a triangle by three sides. Extra:
-- Unit Tests
-- Ease of adding other shapes
-- Calculating the area of a figure without knowing the type of figure
-- Checking if a triangle is a right triangle
+Техническое задание:
+1)Напишите на C# библиотеку для поставки внешним клиентам, которая умеет вычислять площадь круга по радиусу и треугольника по трем сторонам. Дополнительно к работоспособности оценим:
+ - Юнит-тесты
+ - Легкость добавления других фигур
+ - Вычисление площади фигуры без знания типа фигуры в compile-time
+ - Проверку на то, является ли треугольник прямоугольным 
+
+2)В базе данных MS SQL Server есть продукты и категории. Одному продукту может соответствовать много категорий, в одной категории может быть много продуктов. Напишите SQL запрос для выбора всех пар «Имя продукта – Имя категории». Если у продукта нет категорий, то его имя все равно должно выводиться.
+
+Решение хранится в файлах SQL_Task...
